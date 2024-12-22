@@ -43,12 +43,6 @@ MONGO_URI=mongodb://localhost:27017/foodlist
 node src/index.js
 ```
 
-- **Desarrollo (con nodemon)**: Si deseas trabajar en modo desarrollo, ejecuta:
-
-```bash
-npm run dev
-```
-
 ## Rutas
 
 El backend tiene las siguientes rutas disponibles:
