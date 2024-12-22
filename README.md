@@ -4,23 +4,6 @@
 
 Este proyecto es la parte backend de una aplicación de lista de comidas. Proporciona una API para gestionar los alimentos, donde los usuarios pueden obtener información sobre las comidas disponibles, agregarlas a su pedido, y administrar el stock de las mismas. La base de datos se encuentra en MongoDB, utilizando Mongoose para la interacción con los datos.
 
-## Estructura del Proyecto
-
-La estructura del backend es la siguiente:
-
-```
-/home/agustinv/food_list_back/Food_List_Back
-├── README.md           # Este archivo
-├── package-lock.json    # Bloqueo de dependencias
-├── package.json         # Dependencias y scripts
-└── src
-    ├── index.js         # Archivo principal para iniciar el servidor
-    ├── models
-    │   └── food.js      # Modelo para los alimentos en la base de datos
-    └── routes
-        └── foodRoutes.js  # Rutas que gestionan las peticiones relacionadas con los alimentos
-```
-
 ## Requisitos
 
 - Node.js (versión 14 o superior)
@@ -57,7 +40,7 @@ MONGO_URI=mongodb://localhost:27017/foodlist
 - **Iniciar el servidor**: Para iniciar el servidor de la API, ejecuta el siguiente comando:
 
 ```bash
-npm start
+node src/index.js
 ```
 
 - **Desarrollo (con nodemon)**: Si deseas trabajar en modo desarrollo, ejecuta:
