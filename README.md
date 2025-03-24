@@ -29,19 +29,17 @@ cd Food_List_Back
 npm install
 ```
 
-4. Configura la base de datos. Asegúrate de que MongoDB esté corriendo localmente o configura la URI de conexión si usas MongoDB Atlas. El archivo `.env` debería contener lo siguiente:
-
-```
-MONGO_URI=mongodb://localhost:27017/foodlist
-```
-
 ## Scripts
 
 - **Iniciar el servidor**: Para iniciar el servidor de la API, ejecuta el siguiente comando:
 
 ```bash
-node src/index.js
+npm start
 ```
+
+## Front-End
+
+- **Iniciar el servidor**: Recuerda iniciar también el servidor del lado del front-end.
 
 ## Rutas
 
