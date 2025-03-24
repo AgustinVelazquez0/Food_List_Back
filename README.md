@@ -1,29 +1,29 @@
 # Food List Backend
 
-## Descripción
+## Description
 
-Este proyecto es la parte backend de una aplicación de lista de comidas. Proporciona una API para gestionar los alimentos, donde los usuarios pueden obtener información sobre las comidas disponibles, agregarlas a su pedido, y administrar el stock de las mismas. La base de datos se encuentra en MongoDB, utilizando Mongoose para la interacción con los datos.
+This project is the backend part of a food list application. It provides an API to manage food items, where users can retrieve information about available food, add them to their order, and manage the stock of these items. The database is hosted on MongoDB, using Mongoose for data interaction.
 
-## Requisitos
+## Requirements
 
-- Node.js (versión 14 o superior)
-- MongoDB corriendo localmente o en un servidor
+- Node.js (version 14 or higher)
+- MongoDB running locally or on a server
 
-## Instalación
+## Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
 
 ```bash
 git clone git@github.com:AgustinVelazquez0/Food_List_Back.git
 ```
 
-2. Navega al directorio del backend:
+2. Navigate to the backend directory:
 
 ```bash
 cd Food_List_Back
 ```
 
-3. Instala las dependencias:
+3. Install dependencies:
 
 ```bash
 npm install
@@ -31,7 +31,7 @@ npm install
 
 ## Scripts
 
-- **Iniciar el servidor**: Para iniciar el servidor de la API, ejecuta el siguiente comando:
+- **Start the server**: To start the API server, run the following command:
 
 ```bash
 npm start
@@ -39,37 +39,37 @@ npm start
 
 ## Front-End
 
-- **Iniciar el servidor**: Recuerda iniciar también el servidor del lado del front-end.
+- **Start the server**: Make sure to also start the front-end server.
 
-## Rutas
+## Routes
 
-El backend tiene las siguientes rutas disponibles:
+The backend exposes the following available routes:
 
 ### `GET /foods`
 
-Obtiene la lista de todos los alimentos.
+Retrieves the list of all available foods.
 
 ### `POST /foods`
 
-Agrega un nuevo alimento al stock.
+Adds a new food item to the stock.
 
 ### `PUT /foods/:id`
 
-Actualiza la información de un alimento específico.
+Updates information of a specific food item.
 
 ### `DELETE /foods/:id`
 
-Elimina un alimento del stock.
+Deletes a food item from the stock.
 
-## Contribución
+## Contribution
 
-Si deseas contribuir a este proyecto, por favor sigue los pasos de instalación e inicia una rama para tus cambios:
+If you want to contribute to this project, please follow the installation steps and create a branch for your changes:
 
 ```bash
-git checkout -b nombre-de-la-rama
+git checkout -b branch-name
 ```
 
-Después, realiza tus cambios y abre un Pull Request a la rama `main` del proyecto.
+Then, make your changes and open a Pull Request to the `main` branch of the project.
 
 ## Front-End
 
@@ -77,6 +77,6 @@ Después, realiza tus cambios y abre un Pull Request a la rama `main` del proyec
 https://github.com/AgustinVelazquez0/Food_List_Front
 ```
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
